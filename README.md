@@ -1,1 +1,1 @@
-# module5_homework
+Homework on module 5: "Introduction to JavaScript"

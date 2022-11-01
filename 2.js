@@ -1,5 +1,6 @@
-let X;
-switch (typeof X) {
+let X; // переменная, которая может принимать любое значение
+
+switch (typeof X) { // проверка на тип данных
     case ("number"):
         console.log("X - число");
         break;
@@ -11,5 +12,5 @@ switch (typeof X) {
         break;
     default: 
         console.log("Тип X не определён");
-}
+};
    

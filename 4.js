@@ -1,2 +1,2 @@
-const A = Math.round(100 * Math.random());
+const A = Math.round(100 * Math.random()); // получить случайное число в диапазоне [0, 100), затем округлить в ближайшую сторону
 console.log(A);
