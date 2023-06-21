@@ -1,9 +1,10 @@
-let map1 = new Map(); // создать объект map
+// программа создает произвольный массив Map, получает его ключи и выводит в консоль все значения
+let map1 = new Map(); 
 
-map1.set("something", "string"); // добавить несколько свойств
+map1.set("something", "string"); 
 map1.set(10, "number");
 map1.set(false, "boolean");
 
-for (let [key, value] of map1) { // перебрать в цикле и вывести в консоль ключи и значения
+for (let [key, value] of map1) { 
     console.log(`Ключ - ${key}, значение - ${value}`);
 };  
